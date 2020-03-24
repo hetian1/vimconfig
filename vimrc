@@ -107,7 +107,8 @@ syntax on
 if ((has("win32") || has("win64") || has("win95") || has("win16")) && has('gui_running'))
 "	set background=light
 	set background=dark
-	colorscheme solarized 
+"	colorscheme solarized 
+	colorscheme peachpuff
 endif
 
 
