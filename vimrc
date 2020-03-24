@@ -104,11 +104,10 @@ map <leader>tr	:NERDTreeToggle<CR>
 "开启高亮
 syntax on
 "配色方案
-if has('gui_running')
+if ((has("win32") || has("win64") || has("win95") || has("win16")) && has('gui_running'))
 "	set background=light
-else
-"	set background=dark
+	set background=dark
+	colorscheme solarized 
 endif
-"colorscheme solarized 
 
 
