@@ -1,5 +1,17 @@
 """ 字符编码
-" 
+"设置文件的代码形式
+set encoding=utf-8
+set termencoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese,cp936
+
+"vim的菜单乱码解决：
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
+"vim提示信息乱码的解决
+language messages zh_CN.utf-8 
+
 set ff=unix
 
 "<leader>
