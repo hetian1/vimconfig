@@ -121,6 +121,11 @@ if ((has("win32") || has("win64") || has("win95") || has("win16")) && has('gui_r
 	set background=dark
 "	colorscheme solarized 
 	colorscheme peachpuff
+	
+	"设置字体
+	set guifont=Consolas:h12
+	set guioptions-=T
+
 endif
 
 
