@@ -9,14 +9,14 @@ let g:mapleader = "\<space>"
 inoremap jk <ESC>
 
 "nnoremap <leader><space><space>  :
-nnoremap <leader>;; :
+nnoremap <leader>;  :
 nnoremap <leader>w  :w<cr>
 nnoremap <leader>q  :q<cr>
 nnoremap <leader>qq :q!<cr>
 nnoremap <leader>wq :wq<cr>
 
 " buffer 操作
-nnoremap <leader>ls :ls<cr>
+nnoremap <leader>ls ls<cr>
 nnoremap <leader>bn :bn<cr>
 nnoremap <F3>		:bn<cr>
 nnoremap <leader>bp :bp<cr>
@@ -50,7 +50,7 @@ inoremap <leader>; :
 inoremap <leader>, <
 inoremap <leader>. >
 inoremap <leader>/ ?
-"inoremap <leader>\ |
+inoremap <leader>\\ |
 inoremap <leader>[ {
 inoremap <leader>] }
 inoremap <leader>' "
@@ -72,7 +72,6 @@ nnoremap <leader>tn :tabn<CR>
 nnoremap <F6>	    :tabn<CR>
 
 " 窗口切换
-"nnoremap <c-w> <c-w>w
 nnoremap <leader>j  <c-w>j
 nnoremap <leader>h  <c-w>h
 nnoremap <leader>k  <c-w>k
@@ -80,6 +79,7 @@ nnoremap <leader>l  <c-w>l
 nnoremap <leader>wc <c-w>c
 nnoremap <leader>wv <c-w>v
 nnoremap <leader>ws <c-w>s
+nnoremap <leader>ww <c-w>w
 
 " 翻页
 nnoremap <leader>f <c-f>
